@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base href=".BASE_URL.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniGames</title>
@@ -9,8 +10,8 @@
 <body>
     <nav>
         <ul class="nav">
-            <a href="html/snake.html"><li>Snake</li></a>
-            <a href="html/ta_te_ti.html"><li>Ta-Te-Ti</li></a>
+            <a href="snake"><li>Snake</li></a>
+            <a href="ta-te-ti"><li>Ta-Te-Ti</li></a>
         </ul>
     </nav>
     <main>
@@ -22,6 +23,5 @@
             </div>
           </div>
     </main>
-    <script src="js/slider.js"></script>
 </body>
 </html>
